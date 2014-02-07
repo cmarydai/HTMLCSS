@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Normalizer */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+p, h1, h3, h3, h4, h5, h6, ul, ol ,li, table, td, th, div, hr, br, form, img, a {
+	border: 0;
+}
+
+
+p {
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: medium;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+b, strong, i, em, u, s {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
